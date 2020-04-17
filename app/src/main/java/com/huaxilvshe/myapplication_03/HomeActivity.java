@@ -23,6 +23,8 @@ public class HomeActivity extends Activity {
         setContentView(R.layout.activity_tableview);
 
         Log.d(TAG, "onCreate: asas");
+
+        Log.d(TAG, "onCreate: ajsaks aalsa ");
     }
 
     public  void getuserNameFoundct(String name, Number num){
