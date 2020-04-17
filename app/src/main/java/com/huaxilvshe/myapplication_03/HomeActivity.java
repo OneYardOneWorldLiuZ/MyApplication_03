@@ -21,6 +21,7 @@ public class HomeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tableview);
         Log.d(TAG, "onCreate: Git - Branch 分支提交代码");
+        Log.d(TAG, "onCreate: Git - Branch 分支二次提交");
     }
 
     public  void getuserNameFoundct(String name, Number num){
