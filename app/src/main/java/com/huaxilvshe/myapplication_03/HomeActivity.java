@@ -2,6 +2,7 @@ package com.huaxilvshe.myapplication_03;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.annotation.Nullable;
 
@@ -13,10 +14,13 @@ import androidx.annotation.Nullable;
 public class HomeActivity extends Activity {
 
 
+    private static final String TAG = "HomeActivity";
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tableview);
+        Log.d(TAG, "onCreate: Git - Branch 分支提交代码");
     }
 
     public  void getuserNameFoundct(String name, Number num){
